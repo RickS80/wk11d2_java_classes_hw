@@ -1,6 +1,8 @@
 import org.junit.Before;
 import org.junit.Test;
 
+import java.util.ArrayList;
+
 import static org.junit.Assert.assertEquals;
 
 public class TestLibrary {
@@ -9,6 +11,7 @@ public class TestLibrary {
     Book book2;
     Book book3;
     Library library;
+    private BookList bookList;
 
     @Before
     public void before(){
@@ -16,6 +19,12 @@ public class TestLibrary {
         book1 = new Book("Lethal White","JK Galbraith", "Thriller");
         book2 = new Book("To Kill a Mocking Bird","Harper Lee", "Thriller");
         book3 = new Book("BFG","Author", "Children");
+        ArrayList<Book> bookArray = new ArrayList <>();
+        bookArray.add(book1);
+        bookArray.add(book2);
+        bookArray.add(book3);
+        bookList = new BookList(bookArray);
+
     }
 
     @Test
@@ -52,6 +61,12 @@ public class TestLibrary {
         library.addBook(book2);
         library.removeBook();
         assertEquals(1, library.bookCount());
+    }
+
+    @Test
+    public void testBookListArray(){
+        assertEquals(3, bookList.getNumberCount());
+
     }
 
 

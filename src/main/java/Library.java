@@ -14,17 +14,20 @@ public class Library {
         return this.booklist.size();
     }
 
-    public void addBook(Book book){
-        if(bookCount() < this.capacity) {
+    public void addBook(Book book) {
+        if (bookCount() < this.capacity) {
             this.booklist.add(book);
         }
+    }
+
+    public Book removeBook() {
+        return this.booklist.remove(0);
+    }
+
+
+
     }
 
 
 
 
-
-
-
-
-}

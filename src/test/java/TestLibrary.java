@@ -30,5 +30,21 @@ public class TestLibrary {
         assertEquals(2, library.bookCount());
     }
 
+    @Test
+    public void addBooktoLibraryFail(){
+        library.addBook(book1);
+        library.addBook(book2);
+        library.addBook(book1);
+        library.addBook(book2);
+        library.addBook(book1);
+        library.addBook(book2);
+        library.addBook(book1);
+        library.addBook(book2);
+        library.addBook(book1);
+        library.addBook(book2);
+        library.addBook(book1);
+        assertEquals(10, library.bookCount());
+    }
+
 
 }

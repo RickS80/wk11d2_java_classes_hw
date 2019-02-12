@@ -455,7 +455,8 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549989935276" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549990438032" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -469,7 +470,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestLibrary.addBooktoLibrary">
+  <component name="RunManager" selected="JUnit.TestLibrary.addBooktoLibraryFail">
     <configuration name="TestBook" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="HashMap_HW_test" />
       <option name="PACKAGE_NAME" value="" />
@@ -498,6 +499,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestLibrary.addBooktoLibraryFail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="HashMap_HW_test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestLibrary" />
+      <option name="METHOD_NAME" value="addBooktoLibraryFail" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestLibrary.libraryIsEmpty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="HashMap_HW_test" />
       <option name="PACKAGE_NAME" value="" />
@@ -513,9 +524,11 @@
       <item itemvalue="JUnit.TestBook" />
       <item itemvalue="JUnit.TestLibrary.libraryIsEmpty" />
       <item itemvalue="JUnit.TestLibrary.addBooktoLibrary" />
+      <item itemvalue="JUnit.TestLibrary.addBooktoLibraryFail" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestLibrary.addBooktoLibraryFail" />
         <item itemvalue="JUnit.TestLibrary.addBooktoLibrary" />
         <item itemvalue="JUnit.TestLibrary.libraryIsEmpty" />
         <item itemvalue="JUnit.TestBook" />
